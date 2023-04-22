@@ -1,0 +1,160 @@
+
+.container-fluid /*Header*/
+{
+    background-color: rgb(221, 218, 217);
+   
+}
+.Hero
+{
+ font-size: 20px;
+ color:rgba(0, 0, 0, 0.932);
+ font-weight: 400;
+ font-style: italic;
+ 
+}
+
+.nav-item{
+    padding: 20px;
+    
+}
+
+/*home*/
+.card-title1
+{
+   padding: 100px 0px 0px 600px;
+   color: rgb(42, 44, 44);
+}
+.card-text1{
+    color: rgb(25, 25, 25);
+   padding: 20px 0px 0px 700px;
+}
+
+.card-title2{
+
+padding: 200px 40px 0px 0px;
+}
+
+.card-text2{
+padding: 20px 0px 0px 90px;
+}
+
+.d-block{
+    height: 20px;
+}
+
+.d-block1{
+    height: 660px;
+}
+
+.d-block2
+{
+    height: 660px;
+}
+
+.card-title3{
+    padding: 400px 0px 0px 100px;
+}
+
+.card-text3{
+    padding: 20px 0px 0px 110px;
+}
+
+.card-title4{
+    padding: 170px 0px 0px 10px;
+}
+
+.card-text4{
+    padding: 20px 0px 0px 80px;
+}
+
+/*products*/
+
+.dot
+{
+    color: gold;
+    padding: 10px;
+}
+
+.form-con{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529; 
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .375rem;
+    outline:none;
+   
+}
+
+/* login signup */
+
+.form-check-label1
+{
+padding: 0px 0px 0px 210px;
+}
+ .modal-title 
+{
+    padding: 0px 0px 0px 180px;
+}
+.form-check-input1
+{
+  margin: 0px 5px 0px -25px;
+ 
+}
+
+/*footer*/
+.shift
+{
+    color: rgb(109, 107, 107) ;
+    
+}
+.shift1
+{
+    color: rgb(109, 107, 107) ;
+    font-size: 33px;
+}
+
+.shift2{
+    margin-bottom: 70px;
+}
+
+.text-uppercase
+{
+    font-size: 22px;
+}
+.bg-light
+{
+    font-size: 18px;
+   
+}
+.dots
+{
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 0px 15px 0px 15px;
+    color: rgb(109, 107, 107) ;
+   
+}
+
+
+.emails{
+    margin: 0px 15px 0px 40px;
+    padding: 0px 230px 0px 10px;
+   outline: none;
+    border: 1px solid grey;
+    border-radius: 8px;
+    color: #404245;
+}
+.dots:hover
+{
+    background-color:#464648;
+    color: white;
+}
+
+
