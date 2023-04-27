@@ -1,90 +1,55 @@
-import React, { useState, useEffect } from "react";
-import { useParams } from "react-router";
+import React from "react";
+import Footer from "./Footer";
+import DATA from "../Data";
 import { NavLink } from "react-router-dom";
-import Skeleton from "react-loading-skeleton";
 
-const Product = () => {
-
-    const {id} = useParams();
-    const [product, setProduct] = useState([]);
-    const [loading, setLoading] = useState(false);
-
-    useEffect(() => {
-        const getProduct = async () => {
-            setLoading(true);
-            const response = await fetch(`https://fakestoreapi.com/products/${id}` );
-            setProduct(await response.json());
-            setLoading(false);
-        }
-        getProduct();
-    }, []);
-
-    const Loading = () => {
-        return (
-            <>
-                <div className="col-md-6">
-                    <Skeleton height={400} />
-                </div>
-                <div className="col-md-6" style={{ lineHeight: 2 }}>
-                    <Skeleton height={50} width={300} />
-                    <Skeleton height={75} />
-                    <Skeleton height={25} width={150} />
-                    <Skeleton height={50} />
-                    <Skeleton height={150} />
-                    <Skeleton height={50} width={100} />
-                    <Skeleton height={50} width={100} style={{ marginLeft: 6 }} />
-                </div>
-            </>
+const Product =()=>
+{
+  
+    const cardItem = (item)=>{
+        return(
+          <div className="card5 py-4 my-4 mx-3" key={item.id} style={{width: "18rem"}}>
+             <img src={item.img} className="card-img-top" alt={item.title}></img>
+            <div className="card-body text-center">
+                <h5 className="card-title">{item.title}</h5>
+                    <p className="lead">${item.price} </p>
+                <NavLink to={`/products/${item.id}`} className="btn btn-outline-dark">Buy Now</NavLink>
+            </div>
+          </div>
         )
     }
-
-    const ShowProduct = () => {
-        return (
-            <>
-                <div className="col-md-6">
-                    <img src={product.image} alt={product.title} height="400px" width="400px" />
-                </div>
-
-                <div className="col-md-6">
-                    <h4 className="text-uppercase text-black-50">
-                        {product.category}
-                    </h4>
-                    <h1 className="display-5">
-                        {product.title
-                        }
-                    </h1>
-                    <p className="lead fw-bolder">
-                        Rating {product.rating && product.rating.rate}
-                        <i className="fa fa-star dot"></i>
-                    </p>
-                    <h3 className="display-6 fw-bold my-4" >
-                        $ {product.price}
-
-                    </h3>
-                    <p className="lead">{product.description}</p>
-                    <button className="btn btn-outline-dark px-4 py-2">
-                        Add to Cart
-                    </button>
-                    <NavLink to="/cart" className="btn btn-dark ms-2 px-3 py-2">
-                        Go to Cart
-                    </NavLink>
-                </div>
-            </>
-        )
-
-    }
-
-
-    return (
+    return(
         <div>
             <div className="container py-5">
-                <div className="row py-4">
-                    {loading ? <Loading /> : <ShowProduct />}
+                <div className="row justify-content-around">
+                    <div className="col-12">
+                        <h1 className="mb-3 mx-5 me-9  grap">Latest Products</h1>
+                        <hr></hr>
+                    </div>
+                    <div className="buttons d-flex justify-content-center py-4  my-3 mx-4 mb-1">
+                    <button className="btn btn-outline-dark me-4 " >All
+                    </button>
+                    <button className="btn btn-outline-dark me-4" > Men's Clothing
+                    </button>
+                    <button className="btn btn-outline-dark me-4" > Women's Clothing
+                    </button>
+                    <button className="btn btn-outline-dark me-4"> Jewelery
+                    </button>
+                    <button className="btn btn-outline-dark me-4" >  Electronics
+                    </button>
+                </div>
                 </div>
             </div>
+            <div className="container">
+                <div className="row">
+                    {DATA.map(cardItem)}
+                </div>
+               
+            </div>
+            <Footer />
         </div>
     )
-} 
+}
 
 
 export default Product;

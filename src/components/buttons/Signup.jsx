@@ -40,10 +40,10 @@ const Signup = () => {
                                     <input type="password" class="form-con" id="exampleInputPassword1" />
                                 </div>
                                 <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input1" id="exampleCheck1" />
+                                    <input type="checkbox" class="form-check-input2" id="exampleCheck1" />
                                     <label class="form-check-label" for="exampleCheck1">You agree to our Terms and Privary Policy</label>
                                 </div>
-                                <button type="submit" class="btn btn-outline-dark primary">Register</button>
+                                <button type="submit" class="btn btn-outline-dark primary mt-2">Register</button>
                             </form>
                         </div>
 

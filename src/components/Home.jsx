@@ -1,5 +1,6 @@
 import React from "react";
-import Products from "./Products";
+import Product from "./Product";
+
 const Home = ()=>{
     return(
       
@@ -19,7 +20,7 @@ const Home = ()=>{
   <div class="carousel-inner">
     <div class="carousel-item active">
     <div className="card text border-0">
-      <img src="assest/R.jpg" class="d-block1 w-100"   alt="..."/>
+      <img src="assest/R.jpg" class="d-block1  w-100"   alt="..."/>
         <div className="card-img-overlay">
           <div className="container">
            <h5 className="card-title1 display-4 fw-bolder mb-0">
@@ -68,7 +69,7 @@ const Home = ()=>{
     </div>
     <div class="carousel-item">
     <div className="card text border-0">
-      <img src="assest/t.jpg" class="d-block2 w-100" alt="..."/>
+      <img src="assest/t.jpg" class="d-block2  w-100" alt="..."/>
         <div className="card-img-overlay">
           <div className="container">
            <h5 className="card-title4 display-4 fw-bolder mb-0">
@@ -100,7 +101,8 @@ const Home = ()=>{
 
 </>
 
-<Products />
+<Product />
+
 
 </div>
     )

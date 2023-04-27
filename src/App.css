@@ -75,7 +75,7 @@ padding: 20px 0px 0px 90px;
     padding: 10px;
 }
 
-.form-con{
+.form-con{                   
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -96,16 +96,22 @@ padding: 20px 0px 0px 90px;
 
 .form-check-label1
 {
-padding: 0px 0px 0px 210px;
+padding: 0px 220px 0px 10px;
+
 }
  .modal-title 
 {
     padding: 0px 0px 0px 180px;
+    font-size: 32px;
 }
 .form-check-input1
 {
-  margin: 0px 5px 0px -25px;
+  margin: 0px 0px 0px -25px;
  
+}
+
+.form-check-input2{
+    margin: 0px 5px 0px -25px;
 }
 
 /*footer*/
@@ -157,4 +163,28 @@ padding: 0px 0px 0px 210px;
     color: white;
 }
 
+.grap
+{
+    text-align: center;
+}
+
+/*card*/
+.card5{
+    transition: all 0.5s ease;
+}
+
+.card5:hover{
+   transform: scale(1.1);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+/*product */
+.product img{
+    transition: all 0.5s ease;
+}
+
+.product img:hover
+{
+    transform: scale(1.1);
+}
 
