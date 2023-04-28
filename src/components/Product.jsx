@@ -12,7 +12,7 @@ const Product =()=>
              <img src={item.img} className="card-img-top" alt={item.title}></img>
             <div className="card-body text-center">
                 <h5 className="card-title">{item.title}</h5>
-                    <p className="lead">${item.price} </p>
+                    <p className="lead">₹{item.price} </p>
                 <NavLink to={`/products/${item.id}`} className="btn btn-outline-dark">Buy Now</NavLink>
             </div>
           </div>
@@ -26,16 +26,15 @@ const Product =()=>
                         <h1 className="mb-3 mx-5 me-9  grap">Latest Products</h1>
                         <hr></hr>
                     </div>
-                    <div className="buttons d-flex justify-content-center py-4  my-3 mx-4 mb-1">
-                    <button className="btn btn-outline-dark me-4 " >All
+                    <div className="buttons  d-flex justify-content-center py-4  my-3 mx-4 mb-1">
+                    
+                    <button className="btn btn-outline-dark me-4 mx-2 flow1" > Men's Clothing
                     </button>
-                    <button className="btn btn-outline-dark me-4" > Men's Clothing
+                    <button className="btn btn-outline-dark me-4 mx-2 flow1" > Women's Clothing
                     </button>
-                    <button className="btn btn-outline-dark me-4" > Women's Clothing
+                    <button className="btn btn-outline-dark me-4 mx-2 flow1"> Jewellery
                     </button>
-                    <button className="btn btn-outline-dark me-4"> Jewelery
-                    </button>
-                    <button className="btn btn-outline-dark me-4" >  Electronics
+                    <button className="btn btn-outline-dark me-4 mx-2 flow1" >  Electronics
                     </button>
                 </div>
                 </div>
@@ -44,7 +43,7 @@ const Product =()=>
                 <div className="row">
                     {DATA.map(cardItem)}
                 </div>
-               
+               <hr />
             </div>
             <Footer />
         </div>

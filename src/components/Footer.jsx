@@ -21,54 +21,54 @@ const Footer = ()=>{
     Products
   </h5>
   <hr className="mb-4 text-dark" />
-  <p>
-    <a href="#" className="text-dark" style={{textDecoration:"none"}}> The Providers</a>
+  <p  className="flow">
+    <a href="#" className="text-dark flow" style={{textDecoration:"none"}}> The Providers</a>
   </p>
-  <p>
-    <a href="#" className="text-dark" style={{textDecoration:"none"}}> Creativity</a>
+  <p  className="flow">
+    <a href="#" className="text-dark flow" style={{textDecoration:"none"}}> Creativity</a>
   </p>
-  <p>
-    <a href="#" className="text-dark" style={{textDecoration:"none"}}>Offers Available</a>
+  <p  className="flow">
+    <a href="#" className="text-dark flow" style={{textDecoration:"none"}}>Offers Available</a>
   </p>
-  <p>
-    <a href="#" className="text-dark" style={{textDecoration:"none"}}> Quality Styling</a>
+  <p  className="flow">
+    <a href="#" className="text-dark flow" style={{textDecoration:"none"}}> Quality Styling</a>
   </p>
 </div>
 
 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
   <h5 className="text-uppercase mb-4  font-weight-bold  shift"> LET US HELP</h5>
   <hr className="mb-4 text-dark" />
-  <p>
-    <a href="#" className="text-dark" style={{textDecoration:"none"}}> Your Account</a>
+  <p className="flow">
+    <a href="#" className="text-dark " style={{textDecoration:"none"}}> Your Account</a>
   </p>
-  <p>
+  <p  className="flow">
     <a href="#" className="text-dark" style={{textDecoration:"none"}}>Become a Affiliates</a>
   </p>
-  <p>
-    <a href="#" className="text-dark" style={{textDecoration:"none"}}>Shipping Rates</a>
+  <p  className="flow">
+    <a href="#" className="text-dark " style={{textDecoration:"none"}}>Shipping Rates</a>
   </p>
-  <p>
-    <a href="#" className="text-dark" style={{textDecoration:"none"}}> Help</a>
+  <p  className="flow">
+    <a href="#" className="text-dark " style={{textDecoration:"none"}}> Help</a>
   </p>
 </div>
 
 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
 <h5 className="text-uppercase mb-4 font-weight-bold  shift "> Contact</h5>
 <hr className="mb-3 text-dark" />
-<p className="text-dark">
-  <i className="fa fa-home  mr-3 text-dark me-2"></i> New York, NY 2333,US
+<p className="text-dark flow">
+  <i className="fa fa-home  mr-3 text-dark  me-2"></i> New York, NY 2333,US
 </p>
-<p className="text-dark">
+<p className="text-dark flow">
   <i className="fa fa-envelope mr-3 text-dark  me-2"></i> skye@gmail.com
 </p>
-<p className="text-dark">
+<p className="text-dark flow">
   <i className="fa fa-phone mr-3 text-dark  me-2"></i> +45 65478302 453
 </p>
-<p className="text-dark">
+<p className="text-dark flow">
   <i className="fa fa-print mr-3 text-dark  me-2"></i> 98765433310
 </p>
 
-</div>
+</div> 
 
 </div>
 
@@ -87,23 +87,23 @@ const Footer = ()=>{
 <ul className="list-unstyled list-inline">
   <p className=" text-uppercase mb-2 font-weight-bold  shift ">Follow Us</p>
   <li className="list-inline-item">
-    <a href="#" className="btn-floating btn-sm text-dark me-2" style={{fontSize:"23px"}}><i className="fa fa-facebook"></i></a>
+    <a href="#" className="btn-floating btn-sm flow text-dark me-2" style={{fontSize:"23px"}}><i className="fa fa-facebook"></i></a>
   </li>
 
   <li className="list-inline-item">
-    <a href="#" className="btn-floating btn-sm text-dark me-2" style={{fontSize:"23px"}}><i className="fa fa-twitter"></i></a>
+    <a href="#" className="btn-floating btn-sm flow text-dark me-2" style={{fontSize:"23px"}}><i className="fa fa-twitter"></i></a>
   </li>
 
   <li className="list-inline-item">
-    <a href="#" className="btn-floating btn-sm text-dark me-2 " style={{fontSize:"23px"}}><i className="fa fa-instagram"></i></a>
+    <a href="#" className="btn-floating btn-sm flow text-dark me-2 " style={{fontSize:"23px"}}><i className="fa fa-instagram"></i></a>
   </li>
 
   <li className="list-inline-item">
-    <a href="#" className="btn-floating btn-sm text-dark me-2" style={{fontSize:"23px"}}><i className="fa fa-linkedin"></i></a>
+    <a href="#" className="btn-floating btn-sm flow text-dark me-2" style={{fontSize:"23px"}}><i className="fa fa-linkedin"></i></a>
   </li>
 
   <li className="list-inline-item">
-    <a href="#" className="btn-floating btn-sm text-dark me-2" style={{fontSize:"23px"}}><i className="fa fa-youtube"></i></a>
+    <a href="#" className="btn-floating btn-sm flow text-dark me-2" style={{fontSize:"23px"}}><i className="fa fa-youtube"></i></a>
   </li>
 
 </ul>

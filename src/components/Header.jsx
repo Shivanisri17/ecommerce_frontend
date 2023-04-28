@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Cartbtn from "./buttons/Cartbtn";
+import Cartbtn from "./buttons/CartBtn";
 import Login from "./buttons/Login";
 import Signup from "./buttons/Signup";
 
@@ -10,7 +10,7 @@ export default function Header() {
         <div>
 
  <nav className="navbar navbar-expand-lg py-0 shadow-sm bg-white">
-                <div class="container-fluid">
+                <div className="container-fluid">
 
                     <NavLink className="navbar-brand" to="/">
                         <img src="/assest/logo.PNG" height={90} width={200} />
@@ -27,17 +27,17 @@ export default function Header() {
                                 <NavLink  className={"nav-link"}   aria-current="page" to="/">Home</NavLink>
                             </li>
                            
-                            <li class="nav-item ">
+                            <li className="nav-item ">
                                 <NavLink  className={"nav-link"}   aria-current="page" to="/products">
                                    Shop
                                 </NavLink>
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <NavLink  className={"nav-link"}  aria-current="page" to="/about">About</NavLink>
                             </li>
 
-                            <li class="nav-item">
+                            <li className="nav-item">
                                 <NavLink className={"nav-link"}  aria-current="page" to="/contact">Contact</NavLink>
                             </li>
                         </ul>
