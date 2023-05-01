@@ -36,7 +36,7 @@ const Login = () => {
   </div>
                                         <div className="mb-3 form-check">
                                             <input type="checkbox" className="form-check-input1" id="exampleCheck1"/>
-                                                <label className="form-check-label1" htmlFor="exampleCheck1">RememberMe</label>
+                                                <label className="form-check-label1" htmlFor="exampleCheck1">RememberMe?</label>
                                                 <label className="form-check-label" htmlFor="exampleCheck1"> Forgot Password</label>
   </div>
                                             <button type="submit" className="btn btn-outline-dark mt-2">Submit</button>

@@ -94,11 +94,6 @@ const Home = ()=>{
   </button>
 </div>
 
-
-
-
-
-
 </>
 
 <Product />

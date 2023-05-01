@@ -121,8 +121,8 @@ img : "/assest/productimages/f1.jpg"
    },
    {
     id : 17,
-   title : "Redmi note 10s pro",
-   price : 10080,
+   title : "Redmi note 9s pro",
+   price : 9980,
    star : "fas fa-star",
    desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam earum doloribus dolor illum alias officia excepturi ipsum iusto totam fuga esse aliquam. Obcaecati iusto Repudiandae reiciendis repellendus optio sapiente numquam",
    img : "/assest/productimages/h2.png"

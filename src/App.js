@@ -12,7 +12,6 @@ import Cart from './components/Cart';
 
 
 
-
 function App() {
   return (
    <>
@@ -27,6 +26,7 @@ function App() {
  <Route exact path="/contact" component={Contact } />
  <Redirect to="/" />
   </ Switch>
+  
      </>
   );
 }

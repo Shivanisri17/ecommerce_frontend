@@ -38,7 +38,13 @@ else{
             <h1 className="display-5 fw-bold">{product.title}</h1>
             <hr />
             <h2 className="my-4">₹{product.price}</h2>
-            
+           <h4> <i className="fa fa-star dot my-2 me-2" ></i>
+           <i className="fa fa-star dot my-2 me-2" ></i>
+           <i className="fa fa-star dot my-2 me-2" ></i>
+           <i className="fa fa-star dot my-2 me-2" ></i>
+           <i className="fa fa-star dot my-2 me-2" ></i>
+           </h4>
+        
             <p className="lead">{product.desc}</p>
             <button onClick={()=>handleCart(product)} className="btn btn-outline-dark my-5">{cartBtn}</button>
         </div>
